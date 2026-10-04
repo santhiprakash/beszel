@@ -1364,6 +1364,7 @@ StateDirectory=beszel-agent
 # Security/sandboxing settings
 KeyringMode=private
 LockPersonality=yes
+PrivateTmp=yes
 ProtectClock=yes
 ProtectHome=read-only
 ProtectHostname=yes
