@@ -251,13 +251,13 @@ msgstr "Ishonchingiz komilmi?"
 msgid "Automatic copy requires a secure context."
 msgstr "Avtomatik nusxalash xavfsiz kontekstni talab qiladi."
 
-#: src/components/routes/system/storage-pools-table.tsx
-msgctxt "Disk space available"
+#. Package version available to install
+#: src/components/routes/system/package-updates-table.tsx
 msgid "Available"
 msgstr "Mavjud"
 
-#. Package version available to install
-#: src/components/routes/system/package-updates-table.tsx
+#: src/components/routes/system/storage-pools-table.tsx
+msgctxt "Disk space available"
 msgid "Available"
 msgstr "Mavjud"
 
@@ -1627,8 +1627,12 @@ msgid "Password must be at least 8 characters."
 msgstr "Parol kamida 8 ta belgidan iborat bo'lishi kerak."
 
 #: src/components/login/auth-form.tsx
-msgid "Password must be less than 72 bytes."
-msgstr "Parol 72 baytdan kam bo'lishi kerak."
+msgid "Password must be at most 71 characters."
+msgstr ""
+
+#: src/components/login/auth-form.tsx
+#~ msgid "Password must be less than 72 bytes."
+#~ msgstr "Parol 72 baytdan kam bo'lishi kerak."
 
 #: src/components/login/forgot-pass-form.tsx
 msgid "Password reset request received"

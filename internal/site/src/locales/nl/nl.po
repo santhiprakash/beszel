@@ -251,13 +251,13 @@ msgstr "Weet je het zeker?"
 msgid "Automatic copy requires a secure context."
 msgstr "Automatisch kopiëren vereist een veilige context."
 
-#: src/components/routes/system/storage-pools-table.tsx
-msgctxt "Disk space available"
+#. Package version available to install
+#: src/components/routes/system/package-updates-table.tsx
 msgid "Available"
 msgstr "Beschikbaar"
 
-#. Package version available to install
-#: src/components/routes/system/package-updates-table.tsx
+#: src/components/routes/system/storage-pools-table.tsx
+msgctxt "Disk space available"
 msgid "Available"
 msgstr "Beschikbaar"
 
@@ -1627,8 +1627,12 @@ msgid "Password must be at least 8 characters."
 msgstr "Het wachtwoord moet minimaal 8 tekens bevatten."
 
 #: src/components/login/auth-form.tsx
-msgid "Password must be less than 72 bytes."
-msgstr "Het wachtwoord moet minder zijn dat 72 bytes."
+msgid "Password must be at most 71 characters."
+msgstr ""
+
+#: src/components/login/auth-form.tsx
+#~ msgid "Password must be less than 72 bytes."
+#~ msgstr "Het wachtwoord moet minder zijn dat 72 bytes."
 
 #: src/components/login/forgot-pass-form.tsx
 msgid "Password reset request received"

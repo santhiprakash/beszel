@@ -251,13 +251,13 @@ msgstr "Bạn có chắc không?"
 msgid "Automatic copy requires a secure context."
 msgstr "Sao chép tự động yêu cầu một ngữ cảnh an toàn."
 
-#: src/components/routes/system/storage-pools-table.tsx
-msgctxt "Disk space available"
+#. Package version available to install
+#: src/components/routes/system/package-updates-table.tsx
 msgid "Available"
 msgstr "Khả dụng"
 
-#. Package version available to install
-#: src/components/routes/system/package-updates-table.tsx
+#: src/components/routes/system/storage-pools-table.tsx
+msgctxt "Disk space available"
 msgid "Available"
 msgstr "Khả dụng"
 
@@ -1627,8 +1627,12 @@ msgid "Password must be at least 8 characters."
 msgstr "Mật khẩu phải có ít nhất 8 ký tự."
 
 #: src/components/login/auth-form.tsx
-msgid "Password must be less than 72 bytes."
-msgstr "Mật khẩu phải nhỏ hơn 72 byte."
+msgid "Password must be at most 71 characters."
+msgstr ""
+
+#: src/components/login/auth-form.tsx
+#~ msgid "Password must be less than 72 bytes."
+#~ msgstr "Mật khẩu phải nhỏ hơn 72 byte."
 
 #: src/components/login/forgot-pass-form.tsx
 msgid "Password reset request received"

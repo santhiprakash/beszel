@@ -251,13 +251,13 @@ msgstr "Er du sikker?"
 msgid "Automatic copy requires a secure context."
 msgstr "Automatisk kopiering krever en sikker kontekst."
 
-#: src/components/routes/system/storage-pools-table.tsx
-msgctxt "Disk space available"
+#. Package version available to install
+#: src/components/routes/system/package-updates-table.tsx
 msgid "Available"
 msgstr "Tilgjengelig"
 
-#. Package version available to install
-#: src/components/routes/system/package-updates-table.tsx
+#: src/components/routes/system/storage-pools-table.tsx
+msgctxt "Disk space available"
 msgid "Available"
 msgstr "Tilgjengelig"
 
@@ -1627,8 +1627,12 @@ msgid "Password must be at least 8 characters."
 msgstr "Passord må bestå av minst 8 tegn."
 
 #: src/components/login/auth-form.tsx
-msgid "Password must be less than 72 bytes."
-msgstr "Passord må være mindre enn 72 byte."
+msgid "Password must be at most 71 characters."
+msgstr ""
+
+#: src/components/login/auth-form.tsx
+#~ msgid "Password must be less than 72 bytes."
+#~ msgstr "Passord må være mindre enn 72 byte."
 
 #: src/components/login/forgot-pass-form.tsx
 msgid "Password reset request received"

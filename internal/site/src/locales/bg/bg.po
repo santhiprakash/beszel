@@ -251,13 +251,13 @@ msgstr "Сигурни ли сте?"
 msgid "Automatic copy requires a secure context."
 msgstr "Автоматичното копиране изисква защитен контескт."
 
-#: src/components/routes/system/storage-pools-table.tsx
-msgctxt "Disk space available"
+#. Package version available to install
+#: src/components/routes/system/package-updates-table.tsx
 msgid "Available"
 msgstr "Налично"
 
-#. Package version available to install
-#: src/components/routes/system/package-updates-table.tsx
+#: src/components/routes/system/storage-pools-table.tsx
+msgctxt "Disk space available"
 msgid "Available"
 msgstr "Налично"
 
@@ -1627,8 +1627,12 @@ msgid "Password must be at least 8 characters."
 msgstr "Паролата трябва да е поне 8 символа."
 
 #: src/components/login/auth-form.tsx
-msgid "Password must be less than 72 bytes."
-msgstr "Паролата трябва да е по-малка от 72 байта."
+msgid "Password must be at most 71 characters."
+msgstr ""
+
+#: src/components/login/auth-form.tsx
+#~ msgid "Password must be less than 72 bytes."
+#~ msgstr "Паролата трябва да е по-малка от 72 байта."
 
 #: src/components/login/forgot-pass-form.tsx
 msgid "Password reset request received"
